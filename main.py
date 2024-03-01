@@ -1,4 +1,4 @@
-from flask import Flask, render_template, request, session, redirect
+from flask import Flask, render_template, request, session, redirect, flash
 from flask_sqlalchemy import SQLAlchemy
 from werkzeug.utils import secure_filename
 from flask_mail import Mail
@@ -149,6 +149,7 @@ def contact():
             recipients = [params['gmail_user']],
             body = "Name = " + name + "\n" + "Phone Number = " + phone + "\n" + "Email = " + email + "\n" + "Password = " + password + "\n" + "Message = " + message 
             )
+        flash("Thanks for Contacting us. We will get back to you soon", "success")
     return render_template('contact.html', params=params)
 
 
