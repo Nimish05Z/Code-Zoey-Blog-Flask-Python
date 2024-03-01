@@ -1,0 +1,23 @@
+{
+    "params":
+    {
+        "local_server":"True",
+        "local_uri":"mysql://root:@localhost/codezoey",
+        "prod_uri":"mysql://root:@localhost/codezoey",
+        "yt_url":"https://www.youtube.com/@codezoey_05",
+        "ig_url":"https://www.instagram.com/codezoey_05",
+        "wp_url":"https://whatsapp.com/channel/0029VaA5W1zATRSlPLrsHC1K",
+        "tg_url":"https://t.me/codezoey_05",
+        "gh_url":"https://github.com/codezoey-05",
+        "blog_name":"Code Zoey",
+        "tag_line":"A Blog Liked by Programmers - BY NIMISH GARG",
+        "gmail_user":"nimishgrg05@gmail.com",
+        "gmail_password":"avykytdrelugacki",
+        "about_text": "Hello This is Nimish Garg. This website is tribute to Zoey Parrot. This is still under Construction. And obviously this is made by me with the help of CWH",
+        "no_of_posts":1,
+        "login_image":"favicon.ico",
+        "admin_user":"Nimish@gmail.com",
+        "admin_password":"nimishz",
+        "upload_location":"D:\\Old Coding\\YouTube Code With Harry\\PYTHON WebDev\\Code Zoey Blog Flask Python\\static"
+    }
+}
