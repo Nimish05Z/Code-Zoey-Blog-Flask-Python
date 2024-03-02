@@ -168,3 +168,6 @@ def dashboard():
             return render_template('dashboard.html', params=params, posts=posts)
         
     return render_template('login.html', params=params)
+
+# if __name__ == "__main__":
+#     app.run(debug=True)
