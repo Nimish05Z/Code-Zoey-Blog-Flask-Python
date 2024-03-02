@@ -168,5 +168,3 @@ def dashboard():
             return render_template('dashboard.html', params=params, posts=posts)
         
     return render_template('login.html', params=params)
-
-app.run(debug=True)
